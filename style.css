@@ -9,7 +9,6 @@
 /*GLOBALES*/
 html {
     font-family: 'Montserrat', sans-serif;
-    font-size: 62.5%;
     border: 0rem;
 }
 body {
@@ -27,7 +26,7 @@ body {
 .flex-wrap {
     flex-wrap: wrap;
 }
-.container {
+.container-css {
     max-width: 1200px;
     margin: 0 auto;
 }
@@ -71,7 +70,7 @@ h1 span {
     font-size: 0.5em;
 }
 /*navbar*/
-.navbar, .navbar-serv {
+.navbar-css, .navbar-serv {
     margin: 0rem auto;
     padding: 1rem 3rem;
     background-color: #111111;
@@ -85,6 +84,7 @@ h1 span {
 	justify-content:space-around;
     padding: 0rem;
     flex-wrap: wrap;
+    font-size: 2em;
 }
 .menu a {
 	padding: 1rem;

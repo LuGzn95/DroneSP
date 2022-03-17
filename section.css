@@ -27,7 +27,7 @@ body {
 .flex-wrap {
     flex-wrap: wrap;
 }
-.container {
+.container-css {
     max-width: 1200px;
     margin: 0 auto;
     padding: 0rem auto;
@@ -39,7 +39,7 @@ img {
 .header {
 	grid-area: header;
 	padding: 0rem;
-    margin: 0rem;
+    margin: 0rem auto;
 	background-image: url(./assets/images/bg\ header.svg)
 }
 .header .logo {
@@ -72,7 +72,7 @@ h1 span {
  }
  
 /*navbar*/
-.navbar {
+.navbar-css {
     margin: 0rem auto;
     padding: 1rem 3rem;
     background-color: #111111;
@@ -365,6 +365,12 @@ h1 span {
 .foto5 { 
       grid-area: foto5; 
 }
+.h2fotografía {
+    text-align: center;
+    color: #971717;
+    margin: 0 auto;
+    padding: 1rem;
+}
  
 /*ESTILOS CONTACTO*/
 .form {
@@ -373,4 +379,8 @@ h1 span {
     color: #fff;
     font-size: 2em;
     padding: 2rem;
+}
+.form-label {
+    color: #fff;    
+    font-size: 1.5em;
 }

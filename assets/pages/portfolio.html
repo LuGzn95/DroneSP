@@ -5,96 +5,117 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,200&display=swap" rel="stylesheet">
     <link rel="preload" href="../../section.css" as="style">
     <link rel="stylesheet" href="../../section.css">
 </head>
 <body>
-    <div class="contenedor-sobremi">
-        <header class="header">
-            <div class="logo">
-                <h1>Sebastián Pedranti <span>Drone Pilot</span></h1>
+    <header class="header">
+        <div class="logo">
+            <h1>Sebastián Pedranti <span>Drone Pilot</span></h1>
+        </div>
+        <section class="navbar-css flex-wrap container-css">
+            <div class="barra-navegación flex-wrap">
+                <ul class="menu flex-row container-css flex-wrap">
+                    <li class="menu-item"><a class="item" href="../../index.html">Inicio</a></li>
+                    <li class="menu-item"><a class="item" href="../../assets/pages/sobremi.html">Sobre Mí</a></li>
+                    <li class="menu-item"><a class="item" href="../../assets/pages/servicios.html">Servicios</a></li>
+                    <li class="menu-item"><a class="item" href="../../assets/pages/portfolio.html">Portfolio</a></li>
+                    <li class="menu-item"><a class="item" href="../../assets/pages/contacto.html">Contacto</a></li>
+                </ul>  
+            </div>                                    
+        </section>          
+    </header>
+    <main class="section-sobremi container-css boxsobremi">
+        <div class="sobre-mi">
+            <h2 class="tit-seccion flex-wrap">Portfolio</h2>
+            <p class="flex-wrap">Lorem ipsum ue eligendi nisi tempore. Dignissimos nesciunt ut reprehenderit voluptatum saepe alias eusci libero ra
+        </div>  
+    </main>
+    <h2 class="h2fotografía container-css">Fotografías</h2>
+    <div id="carouselExampleControlsNoTouching" class="carousel slide container-css" data-bs-touch="false" data-bs-interval="false">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="../images/parquizaciones.png" class="d-block w-100" alt="el manzanar">
             </div>
-            <section class="navbar flex-wrap container">
-                <div class="barra-navegación flex-wrap">
-                    <ul class="menu flex-row container flex-wrap">
-                        <li class="menu-item"><a class="item" href="../../index.html">Inicio</a></li>
-                        <li class="menu-item"><a class="item" href="../../assets/pages/sobremi.html">Sobre Mí</a></li>
-                        <li class="menu-item"><a class="item" href="../../assets/pages/servicios.html">Servicios</a></li>
-                        <li class="menu-item"><a class="item" href="../../assets/pages/portfolio.html">Portfolio</a></li>
-                        <li class="menu-item"><a class="item" href="../../assets/pages/contacto.html">Contacto</a></li>
-                    </ul>  
-                </div>                                    
-            </section>          
-        </header>
-        <main class="section-sobremi container boxsobremi">
-            <div class="sobre-mi">
-                <h2 class="tit-seccion flex-wrap">Portfolio</h2>
-                <p class="flex-wrap">Lorem ipsum ue eligendi nisi tempore. Dignissimos nesciunt ut reprehenderit voluptatum saepe alias eusci libero ra
-            </div>  
-        </main>
-        <div class="grids-portfolio container">
-            <div class="foto1">
-                <img src="../images/agregar fotos en porfolio.png" alt="" width="300px">
+            <div class="carousel-item">
+              <img src="../images/puenteroca.png" class="d-block w-100" alt="puente de roca">
             </div>
-            <div class="video1">
-                <video src="../videos/agregar videos a portfolio.mp4" controls width="300px"></video>
+            <div class="carousel-item">
+              <img src="../images/valledelalunaamarillo.png" class="d-block w-100" alt="valle de la luna amarillo">
             </div>
-            <div class="foto2">
-                <img src="../images/agregar fotos en porfolio.png" alt="" width="300px">
+            <div class="carousel-item">
+              <img src="../images/valledelalunarojo.png" class="d-block w-100" alt="valle de la luna rojo">
             </div>
-            <div class="video2">
-                <video src="../videos/agregar videos a portfolio.mp4" controls width="300px"></video>
-            </div>
-            <div class="foto3">
-                <img src="../images/agregar fotos en porfolio.png" alt="" width="300px">
-            </div>
-            <div class="video3">
-                <video src="../videos/agregar videos a portfolio.mp4" controls width="300px"></video>
-            </div>
-            <div class="foto4">
-                <img src="../images/agregar fotos en porfolio.png" alt="" width="300px">
-            </div>
-            <div class="video4">
-                <video src="../videos/agregar videos a portfolio.mp4" controls width="300px"></video>
-            </div>
-            <div class="foto5">
-                <img src="../images/agregar fotos en porfolio.png" alt="" width="300px">
-            </div>  
-                                                                     
-            <footer class="footer container">
-                <section class="pie-de-página flex-row container">
-                    <h3 class="contacto container">Contacto</h3>
-                    <ul class="datos-contacto container">
-                        <li class="redes container"> <span class="span-foot">Cel:</span> 2984xxxxxx</li>
-                        <li class="redes container"> <span class="span-foot">Email:</span> sebxxxxx@gmail.com</li>
-                        <li class="redes container"> <span class="span-foot">General Roca, Rio Negro</span></li>
-                    </ul>
-                    <div class="iconos-redes flex-row container flex-wrap">
-                        <a class='iconos' href="https://www.facebook.com/sebastian.pedranti" target="_blank"><svg class="link"
-                                xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-facebook" width="64"
-                                height="64" viewBox="0 0 24 24" stroke-width="2" stroke="#000000" fill="none" stroke-linecap="round"
-                                stroke-linejoin="round">
-                                <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-                                <path d="M7 10v4h3v7h4v-7h3l1 -4h-4v-2a1 1 0 0 1 1 -1h3v-4h-3a5 5 0 0 0 -5 5v2h-3" /></svg></a>
-                        <a class='iconos' href="https://www.instagram.com/dronesp2021" target="_blank"><svg class='link'
-                                xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-instagram" width="64"
-                                height="64" viewBox="0 0 24 24" stroke-width="2" stroke="#000000" fill="none" stroke-linecap="round"
-                                stroke-linejoin="round">
-                                <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-                                <rect x="4" y="4" width="16" height="16" rx="4" />
-                                <circle cx="12" cy="12" r="3" />
-                                <line x1="16.5" y1="7.5" x2="16.5" y2="7.501" /></svg></a>
-                        <a class='iconos' class="link" href="https://www.youtube.com/channel/UCnB8bhVRKFxAGZMEIa0gVhw"
-                            target="_blank"><svg class="link" xmlns="http://www.w3.org/2000/svg"
-                                class="icon icon-tabler icon-tabler-brand-youtube" width="64" height="64" viewBox="0 0 24 24"
-                                stroke-width="2" stroke="#000000" fill="none" stroke-linecap="round" stroke-linejoin="round">
-                                <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-                                <rect x="3" y="5" width="18" height="14" rx="4" />
-                                <path d="M10 9l5 3l-5 3z" /></svg></a>
-                    </div>
-                </section>
-            <footer>          
-        </div> 
-            </body>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControlsNoTouching" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControlsNoTouching" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+    <h2 class="h2fotografía container-css">Videos</h2>
+<div id="carouselExampleControlsNoTouching" class="carousel slide container-css" data-bs-touch="false" data-bs-interval="false">
+    <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="../images/agregar fotos en porfolio.png" class="d-block w-100" alt="el manzanar">
+        </div>
+        <div class="carousel-item">
+          <img src="../images/puenteroca.png" class="d-block w-100" alt="puente de roca">
+        </div>
+        <div class="carousel-item">
+          <img src="../images/valledelalunaamarillo.png" class="d-block w-100" alt="valle de la luna amarillo">
+        </div>
+        <div class="carousel-item">
+          <img src="../images/valledelalunarojo.png" class="d-block w-100" alt="valle de la luna rojo">
+        </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControlsNoTouching" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControlsNoTouching" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+</div>
+    <footer class="footer container-css">
+            <section class="pie-de-página flex-row container">
+                <h3 class="contacto container-css">Contacto</h3>
+                <ul class="datos-contacto container-css">
+                    <li class="redes container-css"> <span class="span-foot">Cel:</span> 2984xxxxxx</li>
+                    <li class="redes container-css"> <span class="span-foot">Email:</span> sebxxxxx@gmail.com</li>
+                    <li class="redes container-css"> <span class="span-foot">General Roca, Rio Negro</span></li>
+                </ul>
+                <div class="iconos-redes flex-row container-css flex-wrap">
+                    <a class='iconos' href="https://www.facebook.com/sebastian.pedranti" target="_blank"><svg class="link"
+                            xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-facebook" width="64"
+                            height="64" viewBox="0 0 24 24" stroke-width="2" stroke="#000000" fill="none" stroke-linecap="round"
+                            stroke-linejoin="round">
+                            <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                            <path d="M7 10v4h3v7h4v-7h3l1 -4h-4v-2a1 1 0 0 1 1 -1h3v-4h-3a5 5 0 0 0 -5 5v2h-3" /></svg></a>
+                    <a class='iconos' href="https://www.instagram.com/dronesp2021" target="_blank"><svg class='link'
+                            xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-instagram" width="64"
+                            height="64" viewBox="0 0 24 24" stroke-width="2" stroke="#000000" fill="none" stroke-linecap="round"
+                            stroke-linejoin="round">
+                            <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                            <rect x="4" y="4" width="16" height="16" rx="4" />
+                            <circle cx="12" cy="12" r="3" />
+                            <line x1="16.5" y1="7.5" x2="16.5" y2="7.501" /></svg></a>
+                    <a class='iconos' class="link" href="https://www.youtube.com/channel/UCnB8bhVRKFxAGZMEIa0gVhw"
+                        target="_blank"><svg class="link" xmlns="http://www.w3.org/2000/svg"
+                            class="icon icon-tabler icon-tabler-brand-youtube" width="64" height="64" viewBox="0 0 24 24"
+                            stroke-width="2" stroke="#000000" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                            <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                            <rect x="3" y="5" width="18" height="14" rx="4" />
+                            <path d="M10 9l5 3l-5 3z" /></svg></a>
+                </div>
+            </section>
+        <footer>          
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+</body>
 </html>
