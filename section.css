@@ -53,24 +53,17 @@ img {
 }
 .logo h1 {
 	font-size: 4em;
+    font-weight: bold;
     color: #971717;
-    animation-duration: 4s;
-    animation-name: aparecer;
+    animation-duration: 3s;
+    animation-name: backInLeft;
     animation-iteration-count: infinite;
 }
 h1 span {
     color: lightslategray;
     font-size: 0.5em;
 }
-@keyframes aparecer {
-    0% {
-      opacity: 0;
-    }
-    100% {
-      opacity: 1;
-    }
- }
- 
+
 /*navbar*/
 .navbar {
     margin: 0rem auto;
@@ -92,7 +85,7 @@ h1 span {
 	color: #fff;
 	display: block;
 	text-decoration: none;
-	font-weight: 4em;
+	font-weight: bold;
 	width: 100%;
 	text-align: center;
 	font-size: 2em;
@@ -165,6 +158,7 @@ h1 span {
     margin: 0;
     padding: 0;
     text-align: center;
+    width: 100%;
 }
 .sobre-mi .tit-seccion {
     color: #971717;
@@ -173,17 +167,18 @@ h1 span {
     font-weight: bold;
     margin: 0rem;
     text-align: center;
+    width: 100%;
 }
 .sobre-mi p {
     font-size: 2em;
     font-weight: bold;
     padding: 1rem;
     margin: 0rem;
+    width: 100%;
 }
 .boxsobremi {
     background-image: url(./assets/images/sebaseccionsobremi.jpg);
     width: 100%;
-    max-width: 1200px;
 }
 .img-sobremi {
     max-width: 1200px;
@@ -220,8 +215,6 @@ h1 span {
     justify-content: center;
     padding: 0rem;
     margin: 0rem;
-    width: 580px;
-    min-width: 300px;
     max-width: 100%;
 }
 .texto, .texto2, .texto3 {
@@ -232,7 +225,6 @@ h1 span {
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 580px;
     max-width: 100%;
 }
 .img-sec, .video1, .video3 {
@@ -241,7 +233,6 @@ h1 span {
     display: flex;
     margin: auto 0rem;
     padding: 0rem;
-    width: 580px;
     width: 100%;
 }
 .fotografía { 
@@ -288,9 +279,9 @@ h1 span {
     max-width: 100%; 
 }
 
-@media only screen and (max-width:375px) {
+@media only screen and (max-width:400px) {
     .header {
-        max-width: 375px;
+        max-width: 400px;
     }
     .contenedor-servicios {
         flex-wrap: wrap;
@@ -338,32 +329,41 @@ h1 span {
 .foto1 { 
       grid-area: foto1;
       align-items: center ; 
+      max-width: 100%;
 }
 .video1 { 
     grid-area: video1; 
+    max-width: 100%;
 }
 .foto2 { 
     grid-area: foto2; 
+    max-width: 100%;
 }
 .video2 { 
     grid-area: video2;
     display: flex;
     align-items: flex-end; 
+    max-width: 100%;
 }
 .foto3 { 
     grid-area: foto3; 
+    max-width: 100%;
 }
 .video3 { 
     grid-area: video3; 
+    max-width: 100%;
 }
 .foto4 { 
     grid-area: foto4; 
+    max-width: 100%;
 }
 .video4 { 
     grid-area: video4; 
+    max-width: 100%;
 }
 .foto5 { 
       grid-area: foto5; 
+      max-width: 100%;
 }
  
 /*ESTILOS CONTACTO*/
